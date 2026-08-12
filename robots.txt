@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://xx88vipking.github.io/XX88-website/sitemap.xml
