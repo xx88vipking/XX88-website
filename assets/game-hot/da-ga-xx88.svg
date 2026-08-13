@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 360">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#35100b"/><stop offset="1" stop-color="#9d2a1e"/></linearGradient></defs>
+<rect width="620" height="360" rx="28" fill="url(#g)"/>
+<circle cx="70" cy="65" r="4" fill="#ffcc66"/><circle cx="545" cy="55" r="5" fill="#ffcc66"/><circle cx="570" cy="300" r="3" fill="white"/>
+<path d="M160 240 C105 170 150 95 230 110 C285 65 380 90 400 155 C455 155 480 205 440 245 C375 285 250 290 160 240Z" fill="#d9442e"/><circle cx="330" cy="145" r="13" fill="white"/><circle cx="334" cy="145" r="5" fill="#111"/><path d="M390 175 L455 145 L420 205Z" fill="#ffd166"/><path d="M205 105 C190 65 230 50 250 88 C270 48 305 62 285 103" fill="#ff7b54"/>
+<rect x="24" y="292" width="572" height="44" rx="18" fill="rgba(0,0,0,.35)"/>
+<text x="310" y="322" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="800" fill="white">ĐÁ GÀ XX88</text>
+</svg>

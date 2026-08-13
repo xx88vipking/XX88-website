@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 360">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#160b2e"/><stop offset="1" stop-color="#8b1e5d"/></linearGradient></defs>
+<rect width="620" height="360" rx="28" fill="url(#g)"/>
+<circle cx="70" cy="65" r="4" fill="#ffd166"/><circle cx="545" cy="55" r="5" fill="#ffd166"/><circle cx="570" cy="300" r="3" fill="white"/>
+<rect x="125" y="105" width="370" height="205" rx="30" fill="#281337" stroke="#ffd166" stroke-width="7"/><circle cx="205" cy="205" r="48" fill="#b51f55"/><circle cx="310" cy="205" r="48" fill="#3a75c4"/><circle cx="415" cy="205" r="48" fill="#b51f55"/><text x="205" y="223" text-anchor="middle" font-size="58" fill="white">A</text><text x="310" y="223" text-anchor="middle" font-size="58" fill="white">K</text><text x="415" y="223" text-anchor="middle" font-size="58" fill="white">Q</text>
+<rect x="24" y="292" width="572" height="44" rx="18" fill="rgba(0,0,0,.35)"/>
+<text x="310" y="322" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="800" fill="white">CASINO XX88</text>
+</svg>

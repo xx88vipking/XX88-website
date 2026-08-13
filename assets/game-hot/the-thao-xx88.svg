@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 360">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#071b35"/><stop offset="1" stop-color="#1457a6"/></linearGradient></defs>
+<rect width="620" height="360" rx="28" fill="url(#g)"/>
+<circle cx="70" cy="65" r="4" fill="#72d6ff"/><circle cx="545" cy="55" r="5" fill="#72d6ff"/><circle cx="570" cy="300" r="3" fill="white"/>
+<circle cx="245" cy="190" r="78" fill="#f4f4f4"/><path d="M245 112 L275 160 L330 172 L295 215 L302 270 L245 248 L188 270 L195 215 L160 172 L215 160Z" fill="#182d4d"/><circle cx="430" cy="185" r="62" fill="#f4f4f4"/><path d="M430 123 L458 164 L500 177 L472 210 L477 250 L430 235 L383 250 L388 210 L360 177 L402 164Z" fill="#245a9e"/>
+<rect x="24" y="292" width="572" height="44" rx="18" fill="rgba(0,0,0,.35)"/>
+<text x="310" y="322" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="800" fill="white">THỂ THAO XX88</text>
+</svg>
