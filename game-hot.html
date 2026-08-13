@@ -1,17 +1,265 @@
-<!doctype html><html lang="vi"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Game Hot XX88 | Danh mục trò chơi và thể thao</title>
-<meta name="description" content="Danh mục Game Hot XX88 với các chuyên mục Casino, Bắn Cá, Đá Gà, Nổ Hũ và Thể Thao được trình bày rõ ràng, sinh động.">
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Game Hot XX88 - Danh mục trò chơi</title>
+<meta name="description" content="Danh mục các trò chơi nổi bật được trình bày trực quan và dễ xem.">
+
 <link rel="stylesheet" href="style.css">
-</head><body>
-<header class="top"><div class="container header"><a class="logo" href="index.html">XX88 <span>| KJC</span></a><div class="actions"><a class="btn" href="https://f6wu6.xx88.win/register.html" target="_blank" rel="noopener">ĐĂNG KÝ</a><a class="btn" href="https://f6wu6.xx88.win/register.html" target="_blank" rel="noopener">ĐĂNG NHẬP</a></div></div>
-<nav class="nav"><div class="container nav-inner"><a href="index.html">TRANG CHỦ</a><a href="huong-dan.html">HƯỚNG DẪN XX88</a><a href="game-hot.html">GAME HOT</a><a href="khuyen-mai.html">KHUYẾN MÃI</a><a href="gioi-thieu.html">GIỚI THIỆU</a><a href="cs kh.html">CSKH 24/7</a></div></nav></header>
-<main class="container">
-<section class="hero"><div class="hero-box"><h1>GAME HOT XX88</h1><p>Khám phá các chuyên mục nổi bật được sắp xếp thành từng trang riêng. Thiết kế mới, hình minh họa riêng và nội dung biên soạn lại để website dễ đọc trên mọi thiết bị.</p></div></section>
-<section class="grid">
-<article class="card"><img src="assets/game-hot/casino-xx88.svg" alt="Casino XX88"><div class="card-body"><h2>Casino XX88</h2><p>Khám phá không gian giải trí casino trực tuyến với giao diện hiện đại, các chuyên mục được sắp xếp rõ ràng và trải nghiệm tối ưu trên máy tính lẫn điện thoại.</p><a class="read" href="casino-xx88.html">Xem chuyên mục →</a></div></article>
-<article class="card"><img src="assets/game-hot/ban-ca-xx88.svg" alt="Bắn Cá XX88"><div class="card-body"><h2>Bắn Cá XX88</h2><p>Tìm hiểu thế giới bắn cá với phong cách đại dương sống động, nhiều chủ đề sinh vật biển và giao diện trực quan.</p><a class="read" href="ban-ca-xx88.html">Xem chuyên mục →</a></div></article>
-<article class="card"><img src="assets/game-hot/da-ga-xx88.svg" alt="Đá Gà XX88"><div class="card-body"><h2>Đá Gà XX88</h2><p>Tổng hợp thông tin về chuyên mục đá gà, cách phân loại nội dung và những điểm nổi bật của giao diện để người đọc dễ theo dõi.</p><a class="read" href="da-ga-xx88.html">Xem chuyên mục →</a></div></article>
-<article class="card"><img src="assets/game-hot/no-hu-xx88.svg" alt="Nổ Hũ XX88"><div class="card-body"><h2>Nổ Hũ XX88</h2><p>Khám phá chuyên mục nổ hũ với hình ảnh bắt mắt, bố cục rõ ràng và các bài viết được tổ chức theo từng chủ đề.</p><a class="read" href="no-hu-xx88.html">Xem chuyên mục →</a></div></article>
-<article class="card"><img src="assets/game-hot/the-thao-xx88.svg" alt="Thể Thao XX88"><div class="card-body"><h2>Thể Thao XX88</h2><p>Tổng hợp nội dung thể thao, các môn phổ biến và thông tin tham khảo được trình bày gọn gàng, dễ đọc.</p><a class="read" href="the-thao-xx88.html">Xem chuyên mục →</a></div></article>
-</section></main><footer class="footer"><div class="container">© 2026 XX88 · Trang thông tin Game Hot</div></footer></body></html>
+
+<style>
+.game-hot-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px 18px 50px;
+}
+
+.game-hot-title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 36px;
+    color: #0874d1;
+}
+
+.game-hot-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    line-height: 1.7;
+    color: #555;
+}
+
+.game-hot-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.game-hot-card {
+    background: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,.12);
+    transition: .3s ease;
+}
+
+.game-hot-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0,0,0,.2);
+}
+
+.game-hot-card img {
+    display: block;
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    transition: .3s ease;
+}
+
+.game-hot-card:hover img {
+    transform: scale(1.04);
+}
+
+.game-hot-content {
+    padding: 20px;
+}
+
+.game-hot-content h2 {
+    margin: 0 0 10px;
+    color: #0874d1;
+    font-size: 23px;
+}
+
+.game-hot-content p {
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+
+.game-hot-button {
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 8px;
+    background: #0874d1;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .2s ease;
+}
+
+.game-hot-button:hover {
+    background: #ff7a00;
+    transform: translateX(4px);
+}
+
+.game-hot-card:last-child {
+    grid-column: 1 / -1;
+}
+
+@media (max-width: 700px) {
+    .game-hot-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .game-hot-card:last-child {
+        grid-column: auto;
+    }
+
+    .game-hot-title {
+        font-size: 28px;
+    }
+
+    .game-hot-card img {
+        height: 200px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header class="top">
+    <div class="container header-inner">
+        <a class="logo" href="index.html">
+            XX88 <span>| KJC</span>
+        </a>
+
+        <div class="actions">
+            <a class="btn" href="index.html">TRANG CHỦ</a>
+        </div>
+    </div>
+</header>
+
+<nav class="nav">
+    <div class="container nav-inner">
+        <a href="index.html">TRANG CHỦ</a>
+        <a href="huong-dan.html">HƯỚNG DẪN XX88</a>
+        <a href="game-hot.html">GAME HOT</a>
+        <a href="khuyen-mai.html">KHUYẾN MÃI</a>
+        <a href="gioi-thieu.html">GIỚI THIỆU</a>
+        <a href="cskh.html">CSKH 24/7</a>
+    </div>
+</nav>
+
+<main class="game-hot-page">
+
+    <h1 class="game-hot-title">GAME HOT</h1>
+
+    <p class="game-hot-intro">
+        Khám phá các chuyên mục trò chơi được trình bày trực quan,
+        với hình ảnh minh họa và thông tin ngắn gọn, dễ theo dõi.
+    </p>
+
+    <section class="game-hot-grid">
+
+        <article class="game-hot-card">
+            <img src="assets/game-hot/casino-xx88.svg"
+                 alt="Casino XX88">
+
+            <div class="game-hot-content">
+                <h2>Casino XX88</h2>
+
+                <p>
+                    Khám phá chuyên mục Casino với giao diện trực quan
+                    và hình ảnh minh họa sinh động.
+                </p>
+
+                <a class="game-hot-button"
+                   href="casino-xx88.html">
+                    Xem chi tiết →
+                </a>
+            </div>
+        </article>
+
+
+        <article class="game-hot-card">
+            <img src="assets/game-hot/ban-ca-xx88.svg"
+                 alt="Bắn Cá XX88">
+
+            <div class="game-hot-content">
+                <h2>Bắn Cá XX88</h2>
+
+                <p>
+                    Tìm hiểu chuyên mục Bắn Cá với hình ảnh trực quan
+                    và nội dung được sắp xếp rõ ràng.
+                </p>
+
+                <a class="game-hot-button"
+                   href="ban-ca-xx88.html">
+                    Xem chi tiết →
+                </a>
+            </div>
+        </article>
+
+
+        <article class="game-hot-card">
+            <img src="assets/game-hot/da-ga-xx88.svg"
+                 alt="Đá Gà XX88">
+
+            <div class="game-hot-content">
+                <h2>Đá Gà XX88</h2>
+
+                <p>
+                    Trang thông tin chuyên mục Đá Gà với bố cục
+                    đơn giản, dễ đọc trên máy tính và điện thoại.
+                </p>
+
+                <a class="game-hot-button"
+                   href="da-ga-xx88.html">
+                    Xem chi tiết →
+                </a>
+            </div>
+        </article>
+
+
+        <article class="game-hot-card">
+            <img src="assets/game-hot/no-hu-xx88.svg"
+                 alt="Nổ Hũ XX88">
+
+            <div class="game-hot-content">
+                <h2>Nổ Hũ XX88</h2>
+
+                <p>
+                    Tổng hợp thông tin chuyên mục Nổ Hũ cùng hình ảnh
+                    minh họa được thiết kế nổi bật.
+                </p>
+
+                <a class="game-hot-button"
+                   href="no-hu-xx88.html">
+                    Xem chi tiết →
+                </a>
+            </div>
+        </article>
+
+
+        <article class="game-hot-card">
+            <img src="assets/game-hot/the-thao-xx88.svg"
+                 alt="Thể Thao XX88">
+
+            <div class="game-hot-content">
+                <h2>Thể Thao XX88</h2>
+
+                <p>
+                    Khám phá chuyên mục Thể Thao với bố cục hiện đại,
+                    hình ảnh rõ nét và nội dung dễ theo dõi.
+                </p>
+
+                <a class="game-hot-button"
+                   href="the-thao-xx88.html">
+                    Xem chi tiết →
+                </a>
+            </div>
+        </article>
+
+    </section>
+
+</main>
+
+<footer class="footer">
+    © 2026 XX88 - Trang thông tin Game Hot
+</footer>
+
+</body>
+</html>
