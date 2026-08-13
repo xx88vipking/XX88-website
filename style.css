@@ -270,14 +270,6 @@
 .game-hot-dropdown > a::after {
   content: none !important;
 }
-.game-hot-menu li a img {
-  width: 150px !important;
-  height: 82px !important;
-  object-fit: cover !important;
-  border-radius: 10px !important;
-  flex-shrink: 0 !important;
-  transition: transform .3s ease !important;
-}
 
 .game-hot-menu li a:hover img {
   transform: scale(1.05) !important;
