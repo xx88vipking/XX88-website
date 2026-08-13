@@ -171,3 +171,7 @@
   line-height: 1.2 !important;
   white-space: nowrap !important;
 }
+/* Chỉ giữ 1 mũi tên cho Game Hot */
+.game-hot-dropdown > a::before {
+    content: none !important;
+}
