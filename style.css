@@ -175,3 +175,6 @@
 .game-hot-dropdown > a::before {
     content: none !important;
 }
+.game-hot-dropdown > a::after {
+    content: none !important;
+}
